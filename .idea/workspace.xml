@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b94169c3-7c40-48c3-b937-f6a13880f0a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/Development.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Car Market/src/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Car Market/src/Vehicles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Car Market/src/rest/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com.carmarket/java/core/controller/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com.carmarket/java/core/controller/user/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com.carmarket/java/core/service/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com.carmarket/java/util/DbUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/app-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/register/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/jquery/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/script/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/style/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/style/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/core/controller/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/core/controller/user/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/core/model/user/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/core/model/vehicles/Vehicles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/core/service/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/core/service/user/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/util/DbUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-08-28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-08-29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-08-30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-08-31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-09-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-09-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-09-03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-09-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/CarMarketMVC/org/apache/jsp/footer_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/CarMarketMVC/org/apache/jsp/footer_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/CarMarketMVC/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/CarMarketMVC/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Company/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Company/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Company/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Company/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Company/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Company/Company.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/Util/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/Util/Carpet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/Util/Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/Util/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/accomodation/Accomodation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/accomodation/Apartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/accomodation/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/accomodation/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/common/Devices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/common/Furniture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/devices/Boiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/devices/Clock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/devices/ElectricStove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/devices/Fridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/devices/HairDryen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/devices/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/devices/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/devices/VacuumCleaner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/devices/WashingMashine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/furniture/Bed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/furniture/Chair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/furniture/Commode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/furniture/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/furniture/Wardrobe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/rooms/Bathroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/rooms/Bedroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/rooms/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/rooms/LivingRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Home/src/rooms/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task1Nidal/src/Printers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task1Nidal/src/Temperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2Nidal/src/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2Nidal/src/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2Nidal/src/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2Nidal/src/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../izuzeci/src/Xox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../izuzeci/src/tryCatchExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-tutorial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../petlje/petlje.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../petlje/src/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../petlje/src/Radnik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/controler/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/controler/user/UserControler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/model/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com.carmarket/java/core/model/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/model/vehicles/Vehicles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com.carmarket/java/core/model/vehicles/Vehicles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/service/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com.carmarket/java/core/service/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/service/user/UserServiceImpl.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2029444056">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="50" />
+          <entry key="project.open.time.0" value="8" />
+          <entry key="project.open.time.1" value="11" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="9" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.43" value="2" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.48" value="2" />
+          <entry key="project.open.time.51" value="2" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.62" value="2" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="51" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="47" />
+          <entry key="dummy" value="1" />
+          <entry key="html" value="1150" />
+          <entry key="java" value="5917" />
+          <entry key="js" value="24" />
+          <entry key="jsp" value="321" />
+          <entry key="properties" value="117" />
+          <entry key="xml" value="90" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="47" />
+          <entry key="HTML" value="1150" />
+          <entry key="JAVA" value="5917" />
+          <entry key="JSP" value="321" />
+          <entry key="JavaScript" value="24" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="117" />
+          <entry key="XML" value="90" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="15" />
+          <entry key="html" value="14" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="60" />
+          <entry key="js" value="9" />
+          <entry key="jsp" value="1" />
+          <entry key="md" value="1" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="15" />
+          <entry key="HTML" value="14" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="60" />
+          <entry key="JSP" value="1" />
+          <entry key="JavaScript" value="9" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="52" column="68" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/style/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login/login.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>header</find>
+      <find>im</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/model/Vehicles.java" />
+        <option value="$PROJECT_DIR$/src/test/java/bean/LoginBean.java" />
+        <option value="$PROJECT_DIR$/src/test/java/controler/Login.jsp" />
+        <option value="$PROJECT_DIR$/src/test/java/controler/HttpServlet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/controler/HttpServletResponse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/controler/ServletException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/util/DBConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/controler/HttpServletRequest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/controler/HttpSession.java" />
+        <option value="$PROJECT_DIR$/src/test/java/controler/RequestDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/test/java/controler/LogoutServlet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dao/LoginDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/controler/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/controler/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/model/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/controler/user/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/controler/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/model/vehicles/Vehicles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/DbUtil.java" />
+        <option value="$PROJECT_DIR$/src/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/core/model/user/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/service/user/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/controler/user/UserControler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/controller/user/UserControler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/model/user/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/controller/user/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/service/user/UserService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/index.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/script/main1.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/style/login/login.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/script/login/login.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/script/login/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login/login.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/header/header.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/register/signup.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/header.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/header.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/script/main.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/style/main.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/footer.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CarMarketMVC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="346" />
+    <option name="y" value="80" />
+    <option name="width" value="683" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CarMarketMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarMarketMVC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarMarketMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarMarketMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarMarketMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarMarketMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarMarketMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarMarketMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarMarketMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarMarketMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarMarketMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarMarketMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarMarketMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarMarketMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarMarketMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarMarketMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarMarketMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarMarketMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CarMarketMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarMarketMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567634373937" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Neki Mufle\Documents\Development\CarMarketMVC\src\main\webapp" />
+      <recent name="C:\Users\Neki Mufle\Documents\Development\CarMarketMVC\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Neki Mufle\Documents\Development\CarMarketMVC\src\main\com.carmarket" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Neki Mufle\Documents\Development\CarMarketMVC\src\main\webapp\script" />
+      <recent name="C:\Users\Neki Mufle\Documents\Development\CarMarketMVC\src\main\webapp\script\jquery" />
+      <recent name="C:\Users\Neki Mufle\Documents\Development\CarMarketMVC\src\main\webapp\script\bootstrap" />
+      <recent name="C:\Users\Neki Mufle\Documents\Development\CarMarketMVC\src\main\webapp\style\bootstrap" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="controler" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.model.user.User" />
+      <module name="CarMarketMVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.model.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.User" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b94169c3-7c40-48c3-b937-f6a13880f0a8" name="Default Changelist" comment="" />
+      <created>1563296574685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563296574685</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.23524962" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286385" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32707354" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21283256" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32707354" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.09859155" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.jsp" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/controler/ServletException.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/bean/LoginBean.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/DBConnection.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/controler/HttpServletRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/controler/HttpSession.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/controler/RequestDispatcher.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/dao/LoginDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/controler/HttpServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/controler/LoginServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/controler/LogoutServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/controler/UserRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/view.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/model/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/service/user/user/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/com.carmarket/java/core/service/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/controler/User.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="656" selection-start-line="656" selection-end-line="656" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/model/user/UserDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/com.carmarket/java/core/controller/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com.carmarket/java/core/controller/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com.carmarket/java/core/model/vehicles/Vehicles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com.carmarket/java/util/DbUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com.carmarket/java/core/service/user/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="145" column="27" selection-start-line="145" selection-start-column="27" selection-end-line="145" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/app-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/bootstrap/bootstrap-reboot.min.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/script/bootstrap/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/scrolling-nav.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/script/bootstrap/bootstrap.bundle.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/script/jquery/jquery.easing.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/script/scrolling-nav.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/com.carmarket/java/core/model/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="46" column="46" selection-start-line="45" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/login/login.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/script/login/login.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/script/login/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/register/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/bootstrap/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/header.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/script/jquery/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/script/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="52" column="68" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CarMarketMVC</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
